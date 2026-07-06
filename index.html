@@ -55,7 +55,7 @@
 
   <header class="site-header">
     <nav class="nav container" aria-label="Main navigation">
-      <a class="brand" href="index.html">
+      <a class="brand" href="#main">
         <span>Blush <span class="amp">&amp;</span> Brass</span>
         <span class="sub">Vintage</span>
       </a>
@@ -63,11 +63,11 @@
         <svg width="22" height="16" viewBox="0 0 22 16" fill="none" aria-hidden="true"><path d="M1 1h20M1 8h20M1 15h20" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
       </button>
       <ul class="nav-links" id="nav-links">
-        <li><a href="index.html" aria-current="page">Home</a></li>
-        <li><a href="about.html">About</a></li>
-        <li><a href="shop.html">Shop</a></li>
-        <li><a href="drops.html">Upcoming Drops</a></li>
-        <li><a href="contact.html">Contact</a></li>
+        <li><a href="#main" aria-current="page">Home</a></li>
+        <li><a href="#collection">Collection</a></li>
+        <li><a href="#gallery">Now Available</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#drops">Upcoming Drops</a></li>
         <li><a class="btn btn--primary btn--small" href="https://www.whatnot.com/s/1kxPKhrR" target="_blank" rel="noopener">Shop Live</a></li>
       </ul>
     </nav>
@@ -83,7 +83,7 @@
           <h1 id="hero-heading" class="reveal is-visible" data-delay="1">Curated Vintage <span class="accent">with Timeless Charm</span></h1>
           <p class="lede reveal is-visible" data-delay="2">Blush &amp; Brass Vintage is Emma-Kate Hodges' collection of carefully chosen antiques: ginger jars, cloisonné, fine china, and heirloom pieces sourced across Central Kentucky and shared live on Whatnot.</p>
           <div class="btn-row reveal is-visible" data-delay="3">
-            <a class="btn btn--primary" href="shop.html">Browse Collection</a>
+            <a class="btn btn--primary" href="#gallery">Browse Collection</a>
             <a class="btn btn--ghost" href="https://www.whatnot.com/s/1kxPKhrR" target="_blank" rel="noopener">Shop Live on Whatnot</a>
           </div>
         </div>
@@ -99,14 +99,14 @@
             <path d="M29 25 C 27 32, 24 37, 20 41"/>
             <path d="M35 25 C 37 32, 40 37, 44 41"/>
           </svg>
-          <img class="arch-photo" src="https://raw.githubusercontent.com/caseykeown/blush-brass-vintage/refs/heads/main/IMG_3425.jpeg" alt="Emma-Kate Hodges smiling outdoors, holding a floral temple jar and a blue Wedgwood trinket box" width="952" height="1288" fetchpriority="high">
+          <img class="arch-photo" src="assets/images/emma-portrait.jpg" alt="Emma-Kate Hodges smiling outdoors, holding a floral temple jar and a blue Wedgwood trinket box" width="952" height="1288" fetchpriority="high">
           <p class="arch-caption">Emma-Kate · Founder &amp; Curator</p>
         </div>
       </div>
     </section>
 
     <!-- ============ Featured categories ============ -->
-    <section class="section section--tinted" aria-labelledby="categories-heading">
+    <section id="collection" class="section section--tinted" aria-labelledby="categories-heading">
       <div class="container">
         <div class="section-head center reveal">
           <p class="eyebrow eyebrow--flanked">The Collection</p>
@@ -114,34 +114,34 @@
           <div class="divider" aria-hidden="true"></div>
         </div>
         <div class="category-grid">
-          <a class="stitch-card category-card reveal" href="shop.html?category=Ginger%20Jars">
+          <a class="stitch-card category-card reveal" href="#gallery">
             <span class="motif"><img src="assets/images/placeholders/ginger-jar.svg" alt="" loading="lazy" width="84" height="84"></span>
             <h3>Ginger Jars</h3>
             <span class="count">Shop the shape</span>
           </a>
-          <a class="stitch-card category-card reveal" data-delay="1" href="shop.html?category=Cloisonn%C3%A9">
+          <a class="stitch-card category-card reveal" data-delay="1" href="#gallery">
             <span class="motif"><img src="assets/images/placeholders/cloisonne-vase.svg" alt="" loading="lazy" width="84" height="84"></span>
             <h3>Cloisonné</h3>
             <span class="count">Enamel &amp; brass</span>
           </a>
-          <a class="stitch-card category-card reveal" data-delay="2" href="shop.html?category=Fine%20China">
+          <a class="stitch-card category-card reveal" data-delay="2" href="#gallery">
             <span class="motif"><img src="assets/images/placeholders/imari-plate.svg" alt="" loading="lazy" width="84" height="84"></span>
             <h3>Fine China</h3>
             <span class="count">Imari &amp; famille rose</span>
           </a>
-          <a class="stitch-card category-card reveal" href="shop.html?category=Butter%20Pats">
+          <a class="stitch-card category-card reveal" href="#gallery">
             <span class="motif"><img src="assets/images/placeholders/butter-pat.svg" alt="" loading="lazy" width="84" height="84"></span>
             <h3>Butter Pats</h3>
             <span class="count">The tiniest treasures</span>
           </a>
-          <a class="stitch-card category-card reveal" data-delay="1" href="shop.html?category=Brass%20Decor">
+          <a class="stitch-card category-card reveal" data-delay="1" href="#gallery">
             <span class="motif"><img src="assets/images/placeholders/candlesticks.svg" alt="" loading="lazy" width="84" height="84"></span>
             <h3>Brass Decor</h3>
             <span class="count">Warm &amp; polished</span>
           </a>
-          <a class="stitch-card category-card reveal" data-delay="2" href="shop.html?category=Antiques">
+          <a class="stitch-card category-card reveal" data-delay="2" href="#gallery">
             <span class="motif"><img src="assets/images/placeholders/temple-jar.svg" alt="" loading="lazy" width="84" height="84"></span>
-            <h3>Antiques</h3>
+            <h3>Asian Antiques</h3>
             <span class="count">Curated with care</span>
           </a>
         </div>
@@ -149,7 +149,7 @@
     </section>
 
     <!-- ============ Featured pieces ============ -->
-    <section class="section" aria-labelledby="featured-heading">
+    <section id="gallery" class="section" aria-labelledby="featured-heading">
       <div class="container">
         <div class="section-head center reveal">
           <p class="eyebrow eyebrow--flanked">Now Available</p>
@@ -162,17 +162,56 @@
             <p>Setting the table…</p>
           </div>
         </div>
-        <p class="center" style="margin-top: 2.4rem;"><a class="btn btn--ghost" href="shop.html">View the full collection</a></p>
       </div>
     </section>
 
-    <!-- ============ About teaser ============ -->
-    <section class="section section--blush" aria-labelledby="about-heading">
-      <div class="container center reveal">
-        <p class="eyebrow eyebrow--flanked">The Curator</p>
-        <h2 id="about-heading">Beautiful objects deserve another life</h2>
-        <p class="measure center lede">Blush &amp; Brass began with a simple belief: the pieces our grandmothers loved were made to be loved again. Emma-Kate hand-picks every jar, plate, and candlestick so it can find its way into a home where it will be appreciated for years to come.</p>
-        <a class="btn btn--primary" href="about.html" style="margin-top: 0.8rem;">Meet Emma-Kate</a>
+    <!-- ============ Full About Section ============ -->
+    <section id="about" class="section section--blush" aria-labelledby="about-heading">
+      <div class="container visual-spacer">
+        <div class="section-head center reveal">
+          <p class="eyebrow eyebrow--flanked">Meet the Curator</p>
+          <h2 id="about-heading">The face behind Blush &amp; Brass</h2>
+          <div class="divider" aria-hidden="true"></div>
+        </div>
+        
+        <div class="about-grid" style="margin-top: 2rem;">
+          <div class="reveal">
+            <div class="arch-frame">
+              <svg class="arch-stitch sewing" viewBox="0 0 428 546" aria-hidden="true" preserveAspectRatio="none">
+                <path d="M 6 220 A 208 208 0 0 1 422 220 L 422 512 Q 422 540 394 540 L 34 540 Q 6 540 6 512 Z"/>
+              </svg>
+              <img class="arch-photo" src="assets/images/emma-portrait.jpg" alt="Emma-Kate Hodges holding a floral temple jar and a blue Wedgwood trinket box" width="952" height="1288" loading="lazy">
+              <p class="arch-caption">Emma-Kate Hodges</p>
+            </div>
+          </div>
+
+          <div class="reveal" data-delay="1">
+            <h3 style="font-family: var(--font-serif); font-size: 2.2rem; font-weight: 500; margin-bottom: 1rem;">Hi, I&rsquo;m Emma-Kate</h3>
+            <p class="lede">I&rsquo;m a vintage enthusiast from Central Kentucky and the founder of Blush &amp; Brass Vintage. What started as a love of thrifting became a shop, a live show, and a little community of people who believe old things are the best things.</p>
+            <p>A few fun facts about me:</p>
+            <ul class="fact-list" style="margin: 1.2rem 0; padding-left: 1.2rem; line-height: 1.8;">
+              <li>I&rsquo;m a Psychology major working toward becoming a pediatric psychologist in a clinical setting.</li>
+              <li>I currently work as a Registered Behavior Technician (RBT) at a clinic.</li>
+              <li>My favorite things to thrift are Asian and Chinese pieces: ginger jars, cloisonné, teacups and saucers, Imari china, and famille rose whenever I can find it.</li>
+              <li>My current vintage hyper-fixation? Butter pats.</li>
+              <li>When I&rsquo;m not sourcing, you&rsquo;ll find me with my boyfriend, Tanner, and my family.</li>
+            </ul>
+            <p>Thank you, from the bottom of my heart, for your support, encouragement, and kindness. It means so much that these beautiful vintage treasures are finding their way into homes where they&rsquo;ll be loved. I hope anything you bring home from Blush &amp; Brass fits perfectly and brings you as much joy as it brought me while finding it.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ Brand philosophy ============ -->
+    <section class="section section--tinted" aria-labelledby="philosophy-heading">
+      <div class="container center">
+        <p class="eyebrow eyebrow--flanked reveal">The Brand</p>
+        <h2 id="philosophy-heading" class="reveal">Intentional curation, not mass resale</h2>
+        <p class="pull-quote reveal" data-delay="1" style="margin-bottom: 1.6rem; font-family: var(--font-serif); font-style: italic; font-size: 1.8rem; color: var(--font-serif);">&ldquo;Collecting beautiful objects that deserve another life.&rdquo;</p>
+        <p class="measure center reveal" data-delay="2" style="max-width: 720px; margin: 0 auto;">Every piece in the shop is chosen by hand, one hunt at a time. Nothing is bought by the pallet or listed sight-unseen. Each jar is turned over, each plate held up to the light, each candlestick weighed in the palm before it earns a place in the collection. The goal is simple: pieces with history, character, and quality, offered at prices that let them keep living in real homes.</p>
+        <div class="stitch-card framed-panel reveal" data-delay="2" style="max-width: 560px; margin: 2.4rem auto 0;">
+          <img src="assets/images/logo-wide.jpg" alt="The Blush & Brass Vintage logo, embroidered in blue and green thread on cream linen" width="1200" height="766" loading="lazy" style="width: 100%; height: auto; display: block;">
+        </div>
       </div>
     </section>
 
@@ -204,8 +243,8 @@
       </div>
     </section>
 
-    <!-- ============ Next drop teaser ============ -->
-    <section class="section section--tinted" aria-labelledby="drop-heading" hidden>
+    <!-- ============ Next drop section ============ -->
+    <section id="drops" class="section section--tinted" aria-labelledby="drop-heading">
       <div class="container">
         <div class="section-head center reveal is-visible">
           <p class="eyebrow eyebrow--flanked">Mark Your Calendar</p>
@@ -213,7 +252,6 @@
           <div class="divider" aria-hidden="true"></div>
         </div>
         <div class="drops-list" data-next-drop></div>
-        <p class="center" style="margin-top: 2rem;"><a class="btn btn--ghost" href="drops.html">See all upcoming drops</a></p>
       </div>
     </section>
 
@@ -236,17 +274,16 @@
     <div class="container">
       <div class="footer-grid">
         <div>
-          <img class="footer-logo" src="https://raw.githubusercontent.com/caseykeown/blush-brass-vintage/refs/heads/main/Blush-brass-logo-transparent-bg.png" alt="Blush & Brass Vintage embroidered logo" width="84" height="84" loading="lazy">
+          <img class="footer-logo" src="assets/images/logo-square.png" alt="Blush & Brass Vintage embroidered logo" width="84" height="84" loading="lazy">
           <p class="footer-note">Thoughtfully sourced vintage from Central Kentucky, shared live and shipped with care.</p>
         </div>
         <nav aria-label="Footer navigation">
           <h4>Explore</h4>
           <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="shop.html">Shop</a></li>
-            <li><a href="drops.html">Upcoming Drops</a></li>
-            <li><a href="contact.html">Contact</a></li>
+            <li><a href="#main">Home</a></li>
+            <li><a href="#collection">Collection</a></li>
+            <li><a href="#gallery">Shop</a></li>
+            <li><a href="#drops">Upcoming Drops</a></li>
           </ul>
         </nav>
         <div>
