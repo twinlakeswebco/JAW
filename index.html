@@ -1,308 +1,1114 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blush &amp; Brass Vintage — Curated Vintage with Timeless Charm</title>
-  <meta name="description" content="Blush & Brass Vintage is a Central Kentucky shop of carefully curated antiques: ginger jars, cloisonné, fine china, butter pats, and brass décor, sold live on Whatnot.">
-  <link rel="canonical" href="https://caseykeown.github.io/blush-brass-vintage/">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blush &amp; Brass Vintage — Curated Vintage &amp; Estate Finds, Central Kentucky</title>
+<meta name="description" content="Blush &amp; Brass Vintage is a Central Kentucky curation house for timeless brass, fine china, floral porcelain, and one-of-a-kind estate finds, hand-selected by Emma Hodges.">
 
-  <!-- Open Graph -->
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="Blush & Brass Vintage">
-  <meta property="og:title" content="Blush & Brass Vintage — Curated Vintage with Timeless Charm">
-  <meta property="og:description" content="Carefully curated antiques from Central Kentucky: ginger jars, cloisonné, fine china, and heirloom pieces, sold live on Whatnot.">
-  <meta property="og:image" content="https://caseykeown.github.io/blush-brass-vintage/assets/images/og-image.jpg">
-  <meta property="og:url" content="https://caseykeown.github.io/blush-brass-vintage/">
-  <meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500;1,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-  <!-- Icons -->
-  <link rel="icon" type="image/png" href="assets/images/favicon.png">
-  <link rel="apple-touch-icon" href="assets/images/apple-touch-icon.png">
-
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Lora:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-
-  <link rel="stylesheet" href="assets/css/style.css">
-
-  <!-- Schema.org business markup -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "Store",
-    "name": "Blush & Brass Vintage",
-    "description": "Curated vintage and antiques from Central Kentucky: ginger jars, cloisonné, fine china, butter pats, and brass décor, sold through live Whatnot auctions.",
-    "url": "https://caseykeown.github.io/blush-brass-vintage/",
-    "image": "https://caseykeown.github.io/blush-brass-vintage/assets/images/og-image.jpg",
-    "email": "emma.bkhodges1979@gmail.com",
-    "telephone": "+12702872535",
-    "address": { "@type": "PostalAddress", "addressRegion": "KY", "addressCountry": "US" },
-    "founder": { "@type": "Person", "name": "Emma-Kate Hodges" },
-    "sameAs": [
-      "https://www.whatnot.com/s/1kxPKhrR",
-      "https://www.facebook.com/share/1BgmuCi1DA/",
-      "https://www.instagram.com/blushandbrassvintage/"
-    ]
+<style>
+  /* -----------------------------------------------------------
+     Tokens
+  ----------------------------------------------------------- */
+  :root{
+    --color-bg-primary:#FBF8F2;
+    --color-bg-secondary:#E8ECDF;
+    --color-bg-tertiary:#DCE4E5;
+    --color-footer-bg:#33302A;
+    --color-text-dark:#2D2926;
+    --color-text-muted:#736A5E;
+    --color-text-inverse:#F6F2EA;
+    --color-accent-brass:#A6824C;
+    --color-accent-brass-dark:#8C6E3F;
+    --color-accent-blush:#D9BEB0;
+    --color-border:#DDD2BE;
+    --color-white:#FFFFFF;
+    --font-serif:'Cormorant Garamond', Georgia, serif;
+    --font-sans:'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    --container:1200px;
+    --ease:0.35s ease;
   }
-  </script>
+
+  /* -----------------------------------------------------------
+     Reset & base
+  ----------------------------------------------------------- */
+  *,*::before,*::after{ box-sizing:border-box; }
+  html{ scroll-behavior:smooth; }
+  body{
+    margin:0;
+    font-family:var(--font-sans);
+    color:var(--color-text-dark);
+    background:var(--color-bg-primary);
+    line-height:1.65;
+    -webkit-font-smoothing:antialiased;
+  }
+  img{ max-width:100%; display:block; }
+  a{ color:inherit; text-decoration:none; }
+  ul{ margin:0; padding:0; list-style:none; }
+  h1,h2,h3,p,blockquote{ margin:0; }
+  button{ font-family:inherit; cursor:pointer; }
+  input{ font-family:inherit; }
+
+  :focus-visible{
+    outline:2px solid var(--color-accent-brass);
+    outline-offset:3px;
+  }
+
+  .skip-link{
+    position:absolute; left:-999px; top:auto;
+    background:var(--color-text-dark); color:var(--color-text-inverse);
+    padding:.85rem 1.5rem; z-index:200; font-size:.85rem; letter-spacing:.04em;
+  }
+  .skip-link:focus{ left:1rem; top:1rem; }
+
+  .container{
+    max-width:var(--container);
+    margin:0 auto;
+    padding:0 1.75rem;
+  }
+
+  .eyebrow{
+    display:inline-block;
+    font-family:var(--font-sans);
+    font-size:.72rem;
+    font-weight:600;
+    letter-spacing:.22em;
+    text-transform:uppercase;
+    color:var(--color-accent-brass);
+    margin-bottom:1rem;
+  }
+
+  .section-heading{
+    font-family:var(--font-serif);
+    font-weight:500;
+    font-size:clamp(2.1rem, 3.6vw, 3rem);
+    line-height:1.15;
+    letter-spacing:-.01em;
+  }
+
+  .section-intro{
+    max-width:56ch;
+    color:var(--color-text-muted);
+    font-size:1.05rem;
+    margin-top:1.1rem;
+  }
+
+  .section-header{
+    max-width:640px;
+  }
+  .section-header.centered{
+    margin:0 auto;
+    text-align:center;
+  }
+
+  .italic-accent{ font-style:italic; color:var(--color-accent-brass); }
+
+  /* Buttons */
+  .btn{
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    gap:.5rem;
+    padding:.95rem 2.1rem;
+    font-size:.78rem;
+    font-weight:600;
+    letter-spacing:.1em;
+    text-transform:uppercase;
+    border:1px solid var(--color-text-dark);
+    background:transparent;
+    color:var(--color-text-dark);
+    transition:background var(--ease), color var(--ease), border-color var(--ease), transform var(--ease);
+    white-space:nowrap;
+  }
+  .btn-primary{
+    background:var(--color-accent-brass);
+    border-color:var(--color-accent-brass);
+    color:var(--color-white);
+  }
+  .btn-primary:hover{ background:var(--color-accent-brass-dark); border-color:var(--color-accent-brass-dark); }
+  .btn-outline:hover{ background:var(--color-text-dark); color:var(--color-bg-primary); }
+  .btn[aria-disabled="true"]{ opacity:.45; pointer-events:none; }
+
+  /* Signature divider: thin rule + sprig, used between sections */
+  .divider{
+    display:flex;
+    align-items:center;
+    gap:1rem;
+    max-width:220px;
+    margin:2.75rem auto;
+  }
+  .divider-line{ flex:1; height:1px; background:var(--color-border); }
+  .divider-sprig{ width:22px; height:22px; color:var(--color-accent-brass); flex-shrink:0; }
+
+  /* Signature frame: double-line border used on portraits & hero panel */
+  .framed{
+    position:relative;
+    border:1px solid var(--color-border);
+    padding:.6rem;
+    background:var(--color-bg-primary);
+  }
+  .framed::after{
+    content:"";
+    position:absolute;
+    inset:.6rem;
+    border:1px solid var(--color-accent-brass);
+    pointer-events:none;
+  }
+
+  /* -----------------------------------------------------------
+     Header
+  ----------------------------------------------------------- */
+  .site-header{
+    position:fixed;
+    top:0; left:0; width:100%;
+    z-index:100;
+    padding:1.5rem 0;
+    background:transparent;
+    border-bottom:1px solid transparent;
+    transition:background var(--ease), padding var(--ease), border-color var(--ease);
+  }
+  .site-header.scrolled{
+    background:rgba(251,248,242,.94);
+    backdrop-filter:blur(6px);
+    border-bottom-color:var(--color-border);
+    padding:.85rem 0;
+  }
+  .header-inner{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:1.5rem;
+  }
+  .logo-link img{ height:44px; width:auto; transition:height var(--ease); }
+  .site-header.scrolled .logo-link img{ height:36px; }
+
+  .main-nav ul{
+    display:flex;
+    gap:2.75rem;
+  }
+  .main-nav a{
+    font-size:.8rem;
+    font-weight:500;
+    letter-spacing:.1em;
+    text-transform:uppercase;
+    position:relative;
+    padding-bottom:.3rem;
+  }
+  .main-nav a::after{
+    content:"";
+    position:absolute;
+    left:0; bottom:0;
+    width:0; height:1px;
+    background:var(--color-accent-brass);
+    transition:width var(--ease);
+  }
+  .main-nav a:hover::after,
+  .main-nav a:focus-visible::after{ width:100%; }
+
+  .header-actions{ display:flex; align-items:center; gap:1.25rem; }
+  .nav-cta{ padding:.7rem 1.5rem; }
+
+  .nav-toggle{
+    display:none;
+    flex-direction:column;
+    justify-content:center;
+    gap:5px;
+    width:34px; height:34px;
+    background:none;
+    border:none;
+    padding:0;
+  }
+  .nav-toggle span{
+    display:block;
+    width:100%;
+    height:1px;
+    background:var(--color-text-dark);
+  }
+
+  /* -----------------------------------------------------------
+     Hero
+  ----------------------------------------------------------- */
+  .hero{
+    position:relative;
+    min-height:100vh;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    background:var(--color-bg-secondary);
+    overflow:hidden;
+    padding:8rem 1.5rem 5rem;
+  }
+  .hero-watermark{
+    position:absolute;
+    inset:0;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-family:var(--font-serif);
+    font-size:clamp(6rem, 22vw, 15rem);
+    letter-spacing:.05em;
+    color:var(--color-text-dark);
+    opacity:.045;
+    white-space:nowrap;
+    pointer-events:none;
+    user-select:none;
+  }
+  .hero-frame{
+    position:relative;
+    z-index:2;
+    max-width:720px;
+    padding:3.25rem 2.5rem;
+  }
+  .hero-frame .eyebrow{ margin-bottom:1.25rem; }
+  .hero-headline{
+    font-family:var(--font-serif);
+    font-weight:500;
+    font-size:clamp(2.6rem, 5.6vw, 4.4rem);
+    line-height:1.08;
+    letter-spacing:-.01em;
+  }
+  .hero-sub{
+    max-width:46ch;
+    margin:1.5rem auto 0;
+    color:var(--color-text-muted);
+    font-size:1.05rem;
+  }
+  .hero-actions{
+    margin-top:2.25rem;
+    display:flex;
+    gap:1rem;
+    justify-content:center;
+    flex-wrap:wrap;
+  }
+  .scroll-cue{
+    position:absolute;
+    bottom:2.25rem; left:50%;
+    transform:translateX(-50%);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:.6rem;
+    z-index:2;
+    font-size:.68rem;
+    letter-spacing:.2em;
+    text-transform:uppercase;
+    color:var(--color-text-muted);
+  }
+  .scroll-cue::after{
+    content:"";
+    width:1px; height:34px;
+    background:var(--color-accent-brass);
+    animation:scrollpulse 2.2s ease-in-out infinite;
+  }
+  @keyframes scrollpulse{
+    0%,100%{ transform:scaleY(.6); opacity:.4; }
+    50%{ transform:scaleY(1); opacity:1; }
+  }
+
+  /* -----------------------------------------------------------
+     About
+  ----------------------------------------------------------- */
+  .about{ padding:7.5rem 0; }
+  .about-grid{
+    display:grid;
+    grid-template-columns:.82fr 1.18fr;
+    gap:4.5rem;
+    align-items:center;
+  }
+  .about-portrait img{
+    width:100%;
+    aspect-ratio:4/5;
+    object-fit:cover;
+  }
+  .portrait-caption{
+    margin-top:1.25rem;
+    text-align:center;
+    font-family:var(--font-serif);
+    font-style:italic;
+    font-size:1.05rem;
+    color:var(--color-text-muted);
+  }
+  .about-body p{ margin-top:1.15rem; color:var(--color-text-muted); }
+  .about-body p:first-of-type{ margin-top:1.5rem; }
+  blockquote.pull-quote{
+    font-family:var(--font-serif);
+    font-style:italic;
+    font-size:1.5rem;
+    line-height:1.4;
+    color:var(--color-text-dark);
+    border-left:2px solid var(--color-accent-brass);
+    padding-left:1.5rem;
+    margin:2.25rem 0;
+  }
+
+  .philosophy{ margin-top:1rem; }
+  .philosophy-label{
+    font-size:.72rem;
+    font-weight:600;
+    letter-spacing:.2em;
+    text-transform:uppercase;
+    color:var(--color-text-dark);
+    display:block;
+    margin-bottom:1.5rem;
+  }
+  .philosophy-grid{
+    display:grid;
+    grid-template-columns:repeat(3, 1fr);
+    gap:1.5rem;
+  }
+  .philosophy-card{
+    padding:1.75rem 1.5rem;
+    border:1px solid var(--color-border);
+    background:var(--color-bg-primary);
+  }
+  .philosophy-card svg{ width:26px; height:26px; color:var(--color-accent-brass); margin-bottom:1rem; }
+  .philosophy-card h3{
+    font-family:var(--font-serif);
+    font-weight:600;
+    font-size:1.25rem;
+    margin-bottom:.5rem;
+  }
+  .philosophy-card p{ font-size:.92rem; color:var(--color-text-muted); }
+
+  /* -----------------------------------------------------------
+     Collection (category teaser)
+  ----------------------------------------------------------- */
+  .collection{ padding:7.5rem 0; background:var(--color-bg-secondary); }
+  .category-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit, minmax(230px, 1fr));
+    gap:1.75rem;
+    margin-top:3.25rem;
+  }
+  .category-card{
+    text-align:center;
+    padding:2.75rem 1.5rem;
+    background:var(--color-bg-primary);
+    border:1px solid var(--color-border);
+    transition:transform var(--ease), box-shadow var(--ease);
+  }
+  .category-card:hover{
+    transform:translateY(-4px);
+    box-shadow:0 18px 30px -22px rgba(45,41,38,.35);
+  }
+  .category-card svg{ width:28px; height:28px; color:var(--color-accent-brass); margin:0 auto 1.1rem; }
+  .category-card h3{
+    font-family:var(--font-serif);
+    font-weight:600;
+    font-size:1.4rem;
+  }
+  .category-card p{
+    margin-top:.5rem;
+    font-size:.9rem;
+    color:var(--color-text-muted);
+  }
+
+  /* -----------------------------------------------------------
+     Gallery — filters
+  ----------------------------------------------------------- */
+  .gallery{ padding:7.5rem 0; }
+  .gallery-filters{
+    display:flex;
+    flex-wrap:wrap;
+    gap:.6rem;
+    margin-top:2.5rem;
+  }
+  .filter-btn{
+    padding:.55rem 1.25rem;
+    font-size:.72rem;
+    font-weight:600;
+    letter-spacing:.08em;
+    text-transform:uppercase;
+    background:transparent;
+    border:1px solid var(--color-border);
+    color:var(--color-text-muted);
+    transition:background var(--ease), color var(--ease), border-color var(--ease);
+  }
+  .filter-btn:hover{ border-color:var(--color-accent-brass); color:var(--color-text-dark); }
+  .filter-btn.active{
+    background:var(--color-text-dark);
+    border-color:var(--color-text-dark);
+    color:var(--color-bg-primary);
+  }
+  .gallery-card.is-hidden{ display:none; }
+
+  /* -----------------------------------------------------------
+     Dynamic Gallery Grid & Cards
+  ----------------------------------------------------------- */
+  #gallery-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fill, minmax(300px, 1fr));
+    gap:3rem 2rem;
+    margin-top:3rem;
+  }
+
+  .gallery-card{
+    display:flex;
+    flex-direction:column;
+    background:#fff;
+    border:1px solid var(--color-border);
+    transition:transform 0.3s ease;
+  }
+
+  .gallery-card:hover{ transform:translateY(-4px); }
+
+  .gallery-image{
+    position:relative;
+    aspect-ratio:4/5;
+    background-color:var(--color-bg-secondary);
+    overflow:hidden;
+  }
+
+  .gallery-image img{
+    width:100%;
+    height:100%;
+    object-fit:cover;
+    transition:transform 0.5s ease;
+  }
+
+  .gallery-card:hover .gallery-image img{ transform:scale(1.03); }
+
+  .badge{
+    position:absolute;
+    top:1rem; right:1rem;
+    padding:.4rem 1rem;
+    font-size:.72rem;
+    font-weight:600;
+    text-transform:uppercase;
+    letter-spacing:.05em;
+    z-index:2;
+  }
+  .badge.available{
+    background-color:rgba(253,251,247,.92);
+    color:var(--color-text-dark);
+    border:1px solid var(--color-border);
+  }
+  .badge.sold{
+    background-color:rgba(45,41,38,.85);
+    color:#fff;
+  }
+  .gallery-card.sold .gallery-image img{ filter:grayscale(30%) brightness(90%); }
+
+  .gallery-content{
+    padding:1.75rem;
+    display:flex;
+    flex-direction:column;
+    flex-grow:1;
+  }
+  .gallery-content .category{
+    font-size:.72rem;
+    text-transform:uppercase;
+    letter-spacing:.1em;
+    color:var(--color-accent-brass);
+    margin-bottom:.5rem;
+    font-weight:600;
+  }
+  .gallery-content h3{
+    font-family:var(--font-serif);
+    font-weight:600;
+    font-size:1.5rem;
+    margin-bottom:.5rem;
+    line-height:1.2;
+  }
+  .gallery-content .price{
+    font-family:var(--font-sans);
+    font-size:1.05rem;
+    font-weight:500;
+    color:var(--color-text-dark);
+    margin-bottom:1rem;
+  }
+  .gallery-content p:not(.category):not(.price){
+    font-size:.92rem;
+    color:var(--color-text-muted);
+    margin-bottom:1.5rem;
+    display:-webkit-box;
+    -webkit-line-clamp:3;
+    -webkit-box-orient:vertical;
+    overflow:hidden;
+  }
+  .gallery-content .btn{ margin-top:auto; text-align:center; width:100%; }
+
+  .gallery-error{
+    grid-column:1 / -1;
+    text-align:center;
+    padding:4.5rem 2rem;
+    border:1px dashed var(--color-border);
+    color:var(--color-text-muted);
+    font-family:var(--font-serif);
+    font-size:1.25rem;
+  }
+
+  /* Skeleton loading state (initial, pre-hydration) */
+  .skeleton-card{
+    display:flex;
+    flex-direction:column;
+    background:#fff;
+    border:1px solid var(--color-border);
+  }
+  .skeleton-image{
+    aspect-ratio:4/5;
+    background:linear-gradient(100deg, var(--color-bg-secondary) 30%, #f2f4ec 50%, var(--color-bg-secondary) 70%);
+    background-size:200% 100%;
+    animation:shimmer 1.6s ease-in-out infinite;
+  }
+  .skeleton-content{ padding:1.75rem; display:flex; flex-direction:column; gap:.85rem; }
+  .skeleton-line{
+    height:.8rem;
+    background:var(--color-bg-secondary);
+    width:70%;
+  }
+  .skeleton-line.short{ width:40%; }
+  @keyframes shimmer{
+    0%{ background-position:200% 0; }
+    100%{ background-position:-200% 0; }
+  }
+
+  /* -----------------------------------------------------------
+     Drops
+  ----------------------------------------------------------- */
+  .drops{ padding:7.5rem 0; background:var(--color-bg-tertiary); text-align:center; }
+  .drop-card{
+    max-width:600px;
+    margin:3rem auto 0;
+    background:var(--color-bg-primary);
+    padding:3rem 2.5rem;
+  }
+  .drop-label{
+    font-size:.72rem;
+    font-weight:600;
+    letter-spacing:.2em;
+    text-transform:uppercase;
+    color:var(--color-accent-brass);
+  }
+  .drop-date{
+    font-family:var(--font-serif);
+    font-size:2rem;
+    margin-top:.75rem;
+  }
+  .drop-desc{
+    margin-top:1rem;
+    color:var(--color-text-muted);
+    font-size:.95rem;
+  }
+  .notify-form{
+    margin-top:2rem;
+    display:flex;
+    gap:.75rem;
+    flex-wrap:wrap;
+    justify-content:center;
+  }
+  .notify-form input[type="email"]{
+    flex:1;
+    min-width:200px;
+    padding:.9rem 1.1rem;
+    border:1px solid var(--color-border);
+    background:#fff;
+    font-size:.9rem;
+    color:var(--color-text-dark);
+  }
+  .notify-form input[type="email"]::placeholder{ color:var(--color-text-muted); }
+  .notify-confirm{
+    margin-top:1.5rem;
+    font-family:var(--font-serif);
+    font-style:italic;
+    color:var(--color-text-dark);
+    display:none;
+  }
+  .notify-confirm.visible{ display:block; }
+
+  .live-note{
+    margin-top:3rem;
+    font-size:.85rem;
+    color:var(--color-text-muted);
+    letter-spacing:.02em;
+  }
+  .social-row{
+    margin-top:1.1rem;
+    display:flex;
+    gap:1rem;
+    justify-content:center;
+  }
+  .social-row a{
+    width:40px; height:40px;
+    display:flex; align-items:center; justify-content:center;
+    border:1px solid var(--color-border);
+    border-radius:50%;
+    transition:border-color var(--ease), background var(--ease);
+  }
+  .social-row a:hover{ border-color:var(--color-accent-brass); background:var(--color-bg-primary); }
+  .social-row svg{ width:16px; height:16px; }
+
+  /* -----------------------------------------------------------
+     Footer
+  ----------------------------------------------------------- */
+  .site-footer{
+    background:var(--color-footer-bg);
+    color:var(--color-text-inverse);
+    padding:5rem 0 2rem;
+  }
+  .footer-grid{
+    display:grid;
+    grid-template-columns:1.3fr 1fr 1fr 1fr;
+    gap:2.5rem;
+  }
+  .footer-logo-wrap{
+    display:inline-block;
+    background:var(--color-bg-primary);
+    padding:.6rem 1.1rem;
+  }
+  .footer-logo-wrap img{ height:32px; }
+  .footer-tagline{
+    margin-top:1.25rem;
+    font-size:.88rem;
+    color:#C9C2B4;
+    max-width:32ch;
+  }
+  .footer-col h4{
+    font-size:.72rem;
+    font-weight:600;
+    letter-spacing:.15em;
+    text-transform:uppercase;
+    color:#C9C2B4;
+    margin-bottom:1.1rem;
+  }
+  .footer-col ul{ display:flex; flex-direction:column; gap:.7rem; }
+  .footer-col a{ font-size:.9rem; color:var(--color-text-inverse); opacity:.9; }
+  .footer-col a:hover{ opacity:1; text-decoration:underline; }
+  .footer-bottom{
+    margin-top:4rem;
+    padding-top:2rem;
+    border-top:1px solid rgba(255,255,255,.12);
+    display:flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    gap:1rem;
+    font-size:.8rem;
+    color:#B3AB9C;
+  }
+
+  /* -----------------------------------------------------------
+     Responsive
+  ----------------------------------------------------------- */
+  @media (max-width:900px){
+    .about-grid{ grid-template-columns:1fr; }
+    .about-portrait{ max-width:380px; margin:0 auto; }
+    .philosophy-grid{ grid-template-columns:1fr; }
+    .footer-grid{ grid-template-columns:1fr 1fr; }
+  }
+  @media (max-width:768px){
+    .main-nav, .nav-cta{ display:none; }
+    .nav-toggle{ display:flex; }
+    .main-nav.open{
+      display:flex;
+      position:absolute;
+      top:100%; left:0; right:0;
+      background:var(--color-bg-primary);
+      border-bottom:1px solid var(--color-border);
+      padding:1.5rem 1.75rem;
+    }
+    .main-nav.open ul{ flex-direction:column; gap:1.25rem; width:100%; }
+    .hero-frame{ padding:2.25rem 1.25rem; }
+    .footer-grid{ grid-template-columns:1fr; gap:2.25rem; }
+  }
+  @media (max-width:520px){
+    .notify-form{ flex-direction:column; }
+    .notify-form .btn{ width:100%; }
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    html{ scroll-behavior:auto; }
+    .scroll-cue::after{ animation:none; }
+    .skeleton-image{ animation:none; }
+    .gallery-card, .category-card{ transition:none; }
+  }
+</style>
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
 
-  <div class="ribbon" data-ribbon role="region" aria-label="Announcement"></div>
+<a href="#main-content" class="skip-link">Skip to content</a>
 
-  <header class="site-header">
-    <nav class="nav container" aria-label="Main navigation">
-      <a class="brand" href="#main">
-        <span>Blush <span class="amp">&amp;</span> Brass</span>
-        <span class="sub">Vintage</span>
-      </a>
-      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links" aria-label="Open menu">
-        <svg width="22" height="16" viewBox="0 0 22 16" fill="none" aria-hidden="true"><path d="M1 1h20M1 8h20M1 15h20" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
-      </button>
-      <ul class="nav-links" id="nav-links">
-        <li><a href="#main" aria-current="page">Home</a></li>
-        <li><a href="#collection">Collection</a></li>
-        <li><a href="#gallery">Now Available</a></li>
+<header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a href="#hero" class="logo-link" aria-label="Blush &amp; Brass Vintage — home">
+      <img src="https://raw.githubusercontent.com/caseykeown/blush-brass-vintage/refs/heads/main/Blush-brass-logo-transparent-bg.png" alt="Blush &amp; Brass Vintage">
+    </a>
+
+    <nav class="main-nav" id="mainNav" aria-label="Primary">
+      <ul>
         <li><a href="#about">About</a></li>
-        <li><a href="#drops">Upcoming Drops</a></li>
-        <li><a class="btn btn--primary btn--small" href="https://www.whatnot.com/s/1kxPKhrR" target="_blank" rel="noopener">Shop Live</a></li>
+        <li><a href="#collection">Collection</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#drops">Drops</a></li>
       </ul>
     </nav>
-  </header>
 
-  <main id="main">
+    <div class="header-actions">
+      <a href="#drops" class="btn btn-outline nav-cta">Join a Drop</a>
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mainNav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+</header>
 
-    <!-- ============ Hero ============ -->
-    <section class="hero" aria-labelledby="hero-heading">
-      <div class="container hero-grid">
-        <div class="hero-copy">
-          <p class="eyebrow reveal is-visible">Central Kentucky · Est. with love</p>
-          <h1 id="hero-heading" class="reveal is-visible" data-delay="1">Curated Vintage <span class="accent">with Timeless Charm</span></h1>
-          <p class="lede reveal is-visible" data-delay="2">Blush &amp; Brass Vintage is Emma-Kate Hodges' collection of carefully chosen antiques: ginger jars, cloisonné, fine china, and heirloom pieces sourced across Central Kentucky and shared live on Whatnot.</p>
-          <div class="btn-row reveal is-visible" data-delay="3">
-            <a class="btn btn--primary" href="#gallery">Browse Collection</a>
-            <a class="btn btn--ghost" href="https://www.whatnot.com/s/1kxPKhrR" target="_blank" rel="noopener">Shop Live on Whatnot</a>
-          </div>
-        </div>
+<main id="main-content">
 
-        <div class="arch-frame reveal is-visible" data-delay="2">
-          <svg class="arch-stitch" viewBox="0 0 428 546" aria-hidden="true" preserveAspectRatio="none">
-            <path d="M 6 220 A 208 208 0 0 1 422 220 L 422 512 Q 422 540 394 540 L 34 540 Q 6 540 6 512 Z"/>
-          </svg>
-          <svg class="bow" viewBox="0 0 64 44" aria-hidden="true" fill="none" stroke="#6B8494" stroke-width="2" stroke-linecap="round">
-            <path d="M32 20 C 22 4, 4 8, 9 21 C 13 31, 26 28, 32 20 Z"/>
-            <path d="M32 20 C 42 4, 60 8, 55 21 C 51 31, 38 28, 32 20 Z"/>
-            <circle cx="32" cy="20" r="4" fill="#A8BBC7" stroke="none"/>
-            <path d="M29 25 C 27 32, 24 37, 20 41"/>
-            <path d="M35 25 C 37 32, 40 37, 44 41"/>
-          </svg>
-          <img class="arch-photo" src="assets/images/emma-portrait.jpg" alt="Emma-Kate Hodges smiling outdoors, holding a floral temple jar and a blue Wedgwood trinket box" width="952" height="1288" fetchpriority="high">
-          <p class="arch-caption">Emma-Kate · Founder &amp; Curator</p>
-        </div>
-      </div>
-    </section>
-
-    <!-- ============ Featured categories ============ -->
-    <section id="collection" class="section section--tinted" aria-labelledby="categories-heading">
-      <div class="container">
-        <div class="section-head center reveal">
-          <p class="eyebrow eyebrow--flanked">The Collection</p>
-          <h2 id="categories-heading">Rooms full of little histories</h2>
-          <div class="divider" aria-hidden="true"></div>
-        </div>
-        <div class="category-grid">
-          <a class="stitch-card category-card reveal" href="#gallery">
-            <span class="motif"><img src="assets/images/placeholders/ginger-jar.svg" alt="" loading="lazy" width="84" height="84"></span>
-            <h3>Ginger Jars</h3>
-            <span class="count">Shop the shape</span>
-          </a>
-          <a class="stitch-card category-card reveal" data-delay="1" href="#gallery">
-            <span class="motif"><img src="assets/images/placeholders/cloisonne-vase.svg" alt="" loading="lazy" width="84" height="84"></span>
-            <h3>Cloisonné</h3>
-            <span class="count">Enamel &amp; brass</span>
-          </a>
-          <a class="stitch-card category-card reveal" data-delay="2" href="#gallery">
-            <span class="motif"><img src="assets/images/placeholders/imari-plate.svg" alt="" loading="lazy" width="84" height="84"></span>
-            <h3>Fine China</h3>
-            <span class="count">Imari &amp; famille rose</span>
-          </a>
-          <a class="stitch-card category-card reveal" href="#gallery">
-            <span class="motif"><img src="assets/images/placeholders/butter-pat.svg" alt="" loading="lazy" width="84" height="84"></span>
-            <h3>Butter Pats</h3>
-            <span class="count">The tiniest treasures</span>
-          </a>
-          <a class="stitch-card category-card reveal" data-delay="1" href="#gallery">
-            <span class="motif"><img src="assets/images/placeholders/candlesticks.svg" alt="" loading="lazy" width="84" height="84"></span>
-            <h3>Brass Decor</h3>
-            <span class="count">Warm &amp; polished</span>
-          </a>
-          <a class="stitch-card category-card reveal" data-delay="2" href="#gallery">
-            <span class="motif"><img src="assets/images/placeholders/temple-jar.svg" alt="" loading="lazy" width="84" height="84"></span>
-            <h3>Asian Antiques</h3>
-            <span class="count">Curated with care</span>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <!-- ============ Featured pieces ============ -->
-    <section id="gallery" class="section" aria-labelledby="featured-heading">
-      <div class="container">
-        <div class="section-head center reveal">
-          <p class="eyebrow eyebrow--flanked">Now Available</p>
-          <h2 id="featured-heading">Featured pieces</h2>
-          <div class="divider" aria-hidden="true"></div>
-        </div>
-        <div class="product-grid" data-featured-products>
-          <div class="loading-state" style="grid-column: 1 / -1;">
-            <div class="spinner" aria-hidden="true"></div>
-            <p>Setting the table…</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ============ Full About Section ============ -->
-    <section id="about" class="section section--blush" aria-labelledby="about-heading">
-      <div class="container visual-spacer">
-        <div class="section-head center reveal">
-          <p class="eyebrow eyebrow--flanked">Meet the Curator</p>
-          <h2 id="about-heading">The face behind Blush &amp; Brass</h2>
-          <div class="divider" aria-hidden="true"></div>
-        </div>
-        
-        <div class="about-grid" style="margin-top: 2rem;">
-          <div class="reveal">
-            <div class="arch-frame">
-              <svg class="arch-stitch sewing" viewBox="0 0 428 546" aria-hidden="true" preserveAspectRatio="none">
-                <path d="M 6 220 A 208 208 0 0 1 422 220 L 422 512 Q 422 540 394 540 L 34 540 Q 6 540 6 512 Z"/>
-              </svg>
-              <img class="arch-photo" src="assets/images/emma-portrait.jpg" alt="Emma-Kate Hodges holding a floral temple jar and a blue Wedgwood trinket box" width="952" height="1288" loading="lazy">
-              <p class="arch-caption">Emma-Kate Hodges</p>
-            </div>
-          </div>
-
-          <div class="reveal" data-delay="1">
-            <h3 style="font-family: var(--font-serif); font-size: 2.2rem; font-weight: 500; margin-bottom: 1rem;">Hi, I&rsquo;m Emma-Kate</h3>
-            <p class="lede">I&rsquo;m a vintage enthusiast from Central Kentucky and the founder of Blush &amp; Brass Vintage. What started as a love of thrifting became a shop, a live show, and a little community of people who believe old things are the best things.</p>
-            <p>A few fun facts about me:</p>
-            <ul class="fact-list" style="margin: 1.2rem 0; padding-left: 1.2rem; line-height: 1.8;">
-              <li>I&rsquo;m a Psychology major working toward becoming a pediatric psychologist in a clinical setting.</li>
-              <li>I currently work as a Registered Behavior Technician (RBT) at a clinic.</li>
-              <li>My favorite things to thrift are Asian and Chinese pieces: ginger jars, cloisonné, teacups and saucers, Imari china, and famille rose whenever I can find it.</li>
-              <li>My current vintage hyper-fixation? Butter pats.</li>
-              <li>When I&rsquo;m not sourcing, you&rsquo;ll find me with my boyfriend, Tanner, and my family.</li>
-            </ul>
-            <p>Thank you, from the bottom of my heart, for your support, encouragement, and kindness. It means so much that these beautiful vintage treasures are finding their way into homes where they&rsquo;ll be loved. I hope anything you bring home from Blush &amp; Brass fits perfectly and brings you as much joy as it brought me while finding it.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ============ Brand philosophy ============ -->
-    <section class="section section--tinted" aria-labelledby="philosophy-heading">
-      <div class="container center">
-        <p class="eyebrow eyebrow--flanked reveal">The Brand</p>
-        <h2 id="philosophy-heading" class="reveal">Intentional curation, not mass resale</h2>
-        <p class="pull-quote reveal" data-delay="1" style="margin-bottom: 1.6rem; font-family: var(--font-serif); font-style: italic; font-size: 1.8rem; color: var(--font-serif);">&ldquo;Collecting beautiful objects that deserve another life.&rdquo;</p>
-        <p class="measure center reveal" data-delay="2" style="max-width: 720px; margin: 0 auto;">Every piece in the shop is chosen by hand, one hunt at a time. Nothing is bought by the pallet or listed sight-unseen. Each jar is turned over, each plate held up to the light, each candlestick weighed in the palm before it earns a place in the collection. The goal is simple: pieces with history, character, and quality, offered at prices that let them keep living in real homes.</p>
-        <div class="stitch-card framed-panel reveal" data-delay="2" style="max-width: 560px; margin: 2.4rem auto 0;">
-          <img src="assets/images/logo-wide.jpg" alt="The Blush & Brass Vintage logo, embroidered in blue and green thread on cream linen" width="1200" height="766" loading="lazy" style="width: 100%; height: auto; display: block;">
-        </div>
-      </div>
-    </section>
-
-    <!-- ============ Kind words ============ -->
-    <section class="section" aria-labelledby="reviews-heading">
-      <div class="container">
-        <div class="section-head center reveal">
-          <p class="eyebrow eyebrow--flanked">Kind Words</p>
-          <h2 id="reviews-heading">From the Blush &amp; Brass community</h2>
-          <div class="divider" aria-hidden="true"></div>
-        </div>
-        <div class="quote-grid">
-          <article class="stitch-card quote-card reveal">
-            <p class="stars" aria-label="Five star review">★★★★★</p>
-            <blockquote>&ldquo;Love the knowledge and passion you have for the items you sell.&rdquo;</blockquote>
-            <cite>Kristi · Whatnot buyer</cite>
-          </article>
-          <article class="stitch-card quote-card reveal" data-delay="1">
-            <p class="stars" aria-label="Five star review">★★★★★</p>
-            <blockquote>&ldquo;Such lovely items, packaged with love and care. All my breakable items arrived perfectly!&rdquo;</blockquote>
-            <cite>Annabelle · Whatnot buyer</cite>
-          </article>
-          <article class="stitch-card quote-card reveal" data-delay="2">
-            <p class="stars" aria-label="Five star review">★★★★★</p>
-            <blockquote>&ldquo;Prices were awesome and I got my order super fast! I will definitely be buying again.&rdquo;</blockquote>
-            <cite>Courtney · Whatnot buyer</cite>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- ============ Next drop section ============ -->
-    <section id="drops" class="section section--tinted" aria-labelledby="drop-heading">
-      <div class="container">
-        <div class="section-head center reveal is-visible">
-          <p class="eyebrow eyebrow--flanked">Mark Your Calendar</p>
-          <h2 id="drop-heading">The next live sale</h2>
-          <div class="divider" aria-hidden="true"></div>
-        </div>
-        <div class="drops-list" data-next-drop></div>
-      </div>
-    </section>
-
-    <!-- ============ CTA band ============ -->
-    <section class="section cta-band" aria-labelledby="cta-heading">
-      <div class="container reveal">
-        <p class="eyebrow eyebrow--flanked">Join Us Live</p>
-        <h2 id="cta-heading">Catch the next show</h2>
-        <p class="measure center lede">Live sales are where the best pieces appear first, and where the community gathers. Follow along so you never miss a drop.</p>
-        <div class="btn-row">
-          <a class="btn btn--primary" href="https://www.whatnot.com/s/1kxPKhrR" target="_blank" rel="noopener">Follow on Whatnot</a>
-          <a class="btn btn--ghost" href="https://www.facebook.com/share/1BgmuCi1DA/" target="_blank" rel="noopener">Follow on Facebook</a>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <!-- ============ Footer ============ -->
-  <footer class="site-footer">
-    <div class="container">
-      <div class="footer-grid">
-        <div>
-          <img class="footer-logo" src="assets/images/logo-square.png" alt="Blush & Brass Vintage embroidered logo" width="84" height="84" loading="lazy">
-          <p class="footer-note">Thoughtfully sourced vintage from Central Kentucky, shared live and shipped with care.</p>
-        </div>
-        <nav aria-label="Footer navigation">
-          <h4>Explore</h4>
-          <ul>
-            <li><a href="#main">Home</a></li>
-            <li><a href="#collection">Collection</a></li>
-            <li><a href="#gallery">Shop</a></li>
-            <li><a href="#drops">Upcoming Drops</a></li>
-          </ul>
-        </nav>
-        <div>
-          <h4>Follow along</h4>
-          <div class="social-row">
-            <a class="social-btn" data-setting="whatnot" href="https://www.whatnot.com/s/1kxPKhrR" target="_blank" rel="noopener">Whatnot</a>
-            <a class="social-btn" data-setting="facebook" href="https://www.facebook.com/share/1BgmuCi1DA/" target="_blank" rel="noopener">Facebook</a>
-            <a class="social-btn" data-setting="instagram" href="https://www.instagram.com/blushandbrassvintage/" target="_blank" rel="noopener">Instagram</a>
-          </div>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <span>© <span data-year>2026</span> Blush &amp; Brass Vintage. All rights reserved.</span>
-        <span>Built with <span class="heart" aria-hidden="true">♥</span><span class="visually-hidden">love</span> in Kentucky</span>
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <span class="hero-watermark" aria-hidden="true">VINTAGE &amp; CO.</span>
+    <div class="hero-frame framed">
+      <span class="eyebrow">Central Kentucky · Curated by Hand</span>
+      <h1 class="hero-headline">Where Yesterday's Treasures Find Their <span class="italic-accent">Next Home</span></h1>
+      <p class="hero-sub">Hand-selected brass, fine china, and floral porcelain — each piece researched, gently kept, and ready to start its next chapter in your home.</p>
+      <div class="hero-actions">
+        <a href="#collection" class="btn btn-primary">Shop the Collection</a>
+        <a href="#about" class="btn btn-outline">Meet Emma</a>
       </div>
     </div>
-  </footer>
+    <span class="scroll-cue">Scroll</span>
+  </section>
 
-  <script src="assets/js/content.js" defer></script>
-  <script src="assets/js/main.js" defer></script>
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="container about-grid">
+      <div class="about-portrait">
+        <div class="framed">
+          <img src="https://raw.githubusercontent.com/caseykeown/blush-brass-vintage/refs/heads/main/IMG_3425.jpeg" alt="Emma Hodges, owner and curator of Blush &amp; Brass Vintage, in Central Kentucky">
+        </div>
+        <p class="portrait-caption">Emma Hodges — Owner &amp; Curator</p>
+      </div>
+
+      <div class="about-content">
+        <span class="eyebrow">The Woman Behind the Wares</span>
+        <h2 class="section-heading">A Central Kentucky Eye for Timeless Things</h2>
+        <div class="about-body">
+          <p>Emma Hodges grew up surrounded by the kind of objects that carry a house's history — her grandmother's butter pats, a great-aunt's ginger jar, brass candlesticks that had already outlived three generations. Weekends were spent at estate sales and church bazaars across Central Kentucky, learning early that the most interesting rooms are the ones built slowly, piece by piece.</p>
+          <p>Blush &amp; Brass Vintage grew out of that upbringing — first as live sales held from her own dining room table, now as a curated home for fine china, cloisonné, jadeite, and brass décor that deserve a second chapter. Every item is chosen the way she'd choose something for her own shelves: with an eye for craftsmanship, a little patience for the hunt, and real respect for the hands that made it.</p>
+        </div>
+
+        <blockquote class="pull-quote">Every piece has already lived one good life. I just help it find its next.</blockquote>
+
+        <div class="philosophy">
+          <span class="philosophy-label">Brand Philosophy</span>
+          <div class="philosophy-grid">
+            <div class="philosophy-card">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M12 3l2.2 4.6 5 .7-3.6 3.6.9 5-4.5-2.4-4.5 2.4.9-5-3.6-3.6 5-.7z"/></svg>
+              <h3>Provenance</h3>
+              <p>Every find is researched and honestly described — origin, age, and history included, not glossed over.</p>
+            </div>
+            <div class="philosophy-card">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M12 21s-7-4.35-9.5-8.5C.5 8.5 3 5 6.5 5c2 0 3.4 1.1 4 2.2C11.1 6.1 12.5 5 14.5 5 18 5 20.5 8.5 20.5 12.5 18 16.65 12 21 12 21z"/></svg>
+              <h3>Patina</h3>
+              <p>Wear, tarnish, and age marks are honored as character, not flaws to be sanded away.</p>
+            </div>
+            <div class="philosophy-card">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 3.6-6 8-6s8 2 8 6"/></svg>
+              <h3>Preservation</h3>
+              <p>Pieces are gently cleaned and stabilized, never over-restored past what makes them genuine.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider" aria-hidden="true">
+    <span class="divider-line"></span>
+    <svg class="divider-sprig" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2"><path d="M12 21V6M12 6C9 6 7 4 7 2c3 0 5 2 5 4zM12 6c3 0 5-2 5-4-3 0-5 2-5 4zM12 13c-2.5 0-4.5-1.7-4.5-4 2.5 0 4.5 1.7 4.5 4zM12 13c2.5 0 4.5-1.7 4.5-4-2.5 0-4.5 1.7-4.5 4z"/></svg>
+    <span class="divider-line"></span>
+  </div>
+
+  <!-- COLLECTION (category teaser) -->
+  <section class="collection" id="collection">
+    <div class="container">
+      <div class="section-header centered">
+        <span class="eyebrow">The Collection</span>
+        <h2 class="section-heading">Categories We Love to Hunt</h2>
+        <p class="section-intro" style="margin-left:auto;margin-right:auto;">A few of the categories that fill Emma's shelves — the full, ever-changing selection lives in the gallery below.</p>
+      </div>
+
+      <div class="category-grid">
+        <div class="category-card">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M8 4h8l1 4-2 12H9L7 8z"/><path d="M8 8h8"/></svg>
+          <h3>Ginger Jars</h3>
+          <p>Statement pieces with painted florals and glazed depth.</p>
+        </div>
+        <div class="category-card">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="4" y="9" width="16" height="10" rx="1"/><path d="M8 9V6a4 4 0 0 1 8 0v3"/></svg>
+          <h3>Cloisonné</h3>
+          <p>Enameled brasswork prized for color and intricate detail.</p>
+        </div>
+        <div class="category-card">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><ellipse cx="12" cy="7" rx="7" ry="3"/><path d="M5 7v6c0 1.7 3.1 3 7 3s7-1.3 7-3V7"/><path d="M5 13v4c0 1.7 3.1 3 7 3s7-1.3 7-3v-4"/></svg>
+          <h3>Fine China &amp; Floral Porcelain</h3>
+          <p>Delicate sets and singles for a table that tells a story.</p>
+        </div>
+        <div class="category-card">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><rect x="6" y="10" width="4" height="3"/><rect x="14" y="10" width="4" height="3"/><rect x="10" y="9" width="4" height="5"/></svg>
+          <h3>Butter Pats &amp; Small Treasures</h3>
+          <p>Tiny collectibles that anchor a shelf or curio case.</p>
+        </div>
+        <div class="category-card">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><path d="M12 3c3 3 6 6 6 10a6 6 0 0 1-12 0c0-4 3-7 6-10z"/></svg>
+          <h3>Jadeite</h3>
+          <p>Milky, mint-hued glass with true Depression-era charm.</p>
+        </div>
+        <div class="category-card">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.4"><circle cx="12" cy="12" r="8"/><path d="M12 4c2 3 2 13 0 16M4 12h16"/></svg>
+          <h3>Chinoiserie Accents</h3>
+          <p>Painted panels and lacquered objects for a layered room.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery" id="gallery">
+    <div class="container">
+      <div class="section-header">
+        <span class="eyebrow">Fresh Finds</span>
+        <h2 class="section-heading">The Gallery</h2>
+        <p class="section-intro">What's currently on the shelf — updated as new pieces are cleaned, catalogued, and ready for a new home.</p>
+      </div>
+
+      <div class="gallery-filters" id="galleryFilters" aria-label="Filter by category"></div>
+
+      <div id="gallery-grid" aria-live="polite">
+        <!-- Loading state shown until data/gallery.json is fetched and hydrated by script below -->
+        <div class="skeleton-card"><div class="skeleton-image"></div><div class="skeleton-content"><div class="skeleton-line short"></div><div class="skeleton-line" style="width:85%;height:1.2rem;"></div><div class="skeleton-line short"></div></div></div>
+        <div class="skeleton-card"><div class="skeleton-image"></div><div class="skeleton-content"><div class="skeleton-line short"></div><div class="skeleton-line" style="width:85%;height:1.2rem;"></div><div class="skeleton-line short"></div></div></div>
+        <div class="skeleton-card"><div class="skeleton-image"></div><div class="skeleton-content"><div class="skeleton-line short"></div><div class="skeleton-line" style="width:85%;height:1.2rem;"></div><div class="skeleton-line short"></div></div></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- DROPS -->
+  <section class="drops" id="drops">
+    <div class="container">
+      <span class="eyebrow">Live &amp; Limited</span>
+      <h2 class="section-heading">Upcoming Drops</h2>
+      <p class="section-intro" style="margin:1.1rem auto 0;">Blush &amp; Brass Vintage started at a dining room table doing live sales, and that spirit still drives our biggest curations. Drops are small, first-come, and gone fast — get on the list so you're never scrolling in after the good ones are claimed.</p>
+
+      <div class="drop-card framed">
+        <span class="drop-label">Next Drop</span>
+        <p class="drop-date">Date &amp; Time — To Be Announced</p>
+        <p class="drop-desc">A fresh curation of brass, fine china, and one-of-a-kind estate finds. Notify list members hear first.</p>
+
+        <form class="notify-form" id="notifyForm">
+          <label class="visually-hidden" for="notifyEmail" style="position:absolute;left:-9999px;">Email address</label>
+          <input type="email" id="notifyEmail" name="email" placeholder="you@email.com" required>
+          <button type="submit" class="btn btn-primary">Notify Me</button>
+        </form>
+        <p class="notify-confirm" id="notifyConfirm">You're on the list — we'll let you know before the next drop goes live.</p>
+      </div>
+
+      <div class="live-note">
+        <p>Follow along for real-time previews before every live drop.</p>
+        <div class="social-row">
+          <!-- TODO: replace # with live social URLs -->
+          <a href="#" aria-label="Blush & Brass Vintage on Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.2" cy="6.8" r="1"/></svg></a>
+          <a href="#" aria-label="Blush & Brass Vintage on TikTok"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M14 3v10.5a3.5 3.5 0 1 1-3.5-3.5"/><path d="M14 3c0 2.5 2 4.5 4.5 4.5"/></svg></a>
+          <a href="#" aria-label="Blush & Brass Vintage on Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M15 8h-2a2 2 0 0 0-2 2v2H9v3h2v6h3v-6h2.2L17 12h-3v-1.5c0-.5.3-.9.9-.9H17V8z"/></svg></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <div class="footer-logo-wrap">
+        <img src="https://raw.githubusercontent.com/caseykeown/blush-brass-vintage/refs/heads/main/Blush-brass-logo-transparent-bg.png" alt="Blush &amp; Brass Vintage">
+      </div>
+      <p class="footer-tagline">Curated brass, fine china, and estate finds, handpicked in Central Kentucky.</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#collection">Collection</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#drops">Drops</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Policies</h4>
+      <ul>
+        <!-- TODO: link to real policy pages -->
+        <li><a href="#">Shipping &amp; Handling</a></li>
+        <li><a href="#">Returns &amp; Exchanges</a></li>
+        <li><a href="#">Privacy Policy</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Connect</h4>
+      <ul>
+        <!-- TODO: replace with real handles / mailto -->
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">TikTok</a></li>
+        <li><a href="mailto:hello@blushandbrassvintage.com">Email Us</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container footer-bottom">
+    <span>&copy; <span id="year"></span> Blush &amp; Brass Vintage. All rights reserved.</span>
+    <span>Handpicked in Central Kentucky.</span>
+  </div>
+</footer>
+
+<script>
+(function(){
+  "use strict";
+
+  /* Footer year */
+  document.getElementById('year').textContent = new Date().getFullYear();
+
+  /* Header scroll state */
+  var header = document.getElementById('siteHeader');
+  function onScroll(){
+    if(window.scrollY > 40){ header.classList.add('scrolled'); }
+    else{ header.classList.remove('scrolled'); }
+  }
+  document.addEventListener('scroll', onScroll, { passive:true });
+  onScroll();
+
+  /* Mobile nav toggle */
+  var navToggle = document.getElementById('navToggle');
+  var mainNav = document.getElementById('mainNav');
+  navToggle.addEventListener('click', function(){
+    var isOpen = mainNav.classList.toggle('open');
+    navToggle.setAttribute('aria-expanded', isOpen ? 'true' : 'false');
+  });
+  mainNav.addEventListener('click', function(e){
+    if(e.target.tagName === 'A'){
+      mainNav.classList.remove('open');
+      navToggle.setAttribute('aria-expanded', 'false');
+    }
+  });
+
+  /* Drop notify form (UI-only — wire to a real service when ready) */
+  var notifyForm = document.getElementById('notifyForm');
+  var notifyConfirm = document.getElementById('notifyConfirm');
+  notifyForm.addEventListener('submit', function(e){
+    e.preventDefault();
+    notifyConfirm.classList.add('visible');
+    notifyForm.reset();
+  });
+
+  /* ---------------------------------------------------------
+     Gallery hydration
+     Reads /data/gallery.json (managed via the Sveltia CMS
+     "Gallery Inventory" file collection) and renders cards
+     into #gallery-grid, replacing the skeleton loading state.
+  --------------------------------------------------------- */
+  function escapeHtml(str){
+    if(str === undefined || str === null) return '';
+    return String(str)
+      .replace(/&/g,'&amp;')
+      .replace(/</g,'&lt;')
+      .replace(/>/g,'&gt;')
+      .replace(/"/g,'&quot;');
+  }
+
+  function cardTemplate(item){
+    var sold = item.status === 'sold';
+    var priceHtml = item.price ? '<p class="price">' + escapeHtml(item.price) + '</p>' : '';
+    var descHtml = item.description ? '<p>' + escapeHtml(item.description) + '</p>' : '';
+    var category = item.category || '';
+    return (
+      '<article class="gallery-card' + (sold ? ' sold' : '') + '" data-category="' + escapeHtml(category) + '">' +
+        '<div class="gallery-image">' +
+          '<span class="badge ' + (sold ? 'sold' : 'available') + '">' + (sold ? 'Sold' : 'Available') + '</span>' +
+          '<img src="' + escapeHtml(item.image) + '" alt="' + escapeHtml(item.title || 'Vintage find') + '" loading="lazy">' +
+        '</div>' +
+        '<div class="gallery-content">' +
+          (category ? '<p class="category">' + escapeHtml(category) + '</p>' : '') +
+          '<h3>' + escapeHtml(item.title || 'Untitled Find') + '</h3>' +
+          priceHtml +
+          descHtml +
+          '<a href="#drops" class="btn ' + (sold ? 'btn-outline' : 'btn-primary') + '"' + (sold ? ' aria-disabled="true"' : '') + '>' +
+            (sold ? 'Sold — See What\'s Next' : 'Inquire About This Piece') +
+          '</a>' +
+        '</div>' +
+      '</article>'
+    );
+  }
+
+  function renderFilters(items, filtersEl, gridEl){
+    var categories = [];
+    items.forEach(function(item){
+      if(item.category && categories.indexOf(item.category) === -1){
+        categories.push(item.category);
+      }
+    });
+    if(categories.length < 2){
+      filtersEl.innerHTML = '';
+      return;
+    }
+    var buttons = ['<button type="button" class="filter-btn active" data-filter="all">All Pieces</button>'];
+    categories.forEach(function(cat){
+      buttons.push('<button type="button" class="filter-btn" data-filter="' + escapeHtml(cat) + '">' + escapeHtml(cat) + '</button>');
+    });
+    filtersEl.innerHTML = buttons.join('');
+
+    filtersEl.addEventListener('click', function(e){
+      var btn = e.target.closest('.filter-btn');
+      if(!btn) return;
+      filtersEl.querySelectorAll('.filter-btn').forEach(function(b){ b.classList.remove('active'); });
+      btn.classList.add('active');
+      var filter = btn.getAttribute('data-filter');
+      gridEl.querySelectorAll('.gallery-card').forEach(function(card){
+        var match = filter === 'all' || card.getAttribute('data-category') === filter;
+        card.classList.toggle('is-hidden', !match);
+      });
+    });
+  }
+
+  function loadGallery(){
+    var grid = document.getElementById('gallery-grid');
+    var filtersEl = document.getElementById('galleryFilters');
+
+    fetch('data/gallery.json', { cache:'no-store' })
+      .then(function(res){
+        if(!res.ok) throw new Error('Gallery data request failed');
+        return res.json();
+      })
+      .then(function(data){
+        var items = Array.isArray(data.items) ? data.items.slice() : [];
+        if(!items.length) throw new Error('No gallery items available');
+
+        items.sort(function(a, b){
+          return new Date(b.date || 0) - new Date(a.date || 0);
+        });
+
+        renderFilters(items, filtersEl, grid);
+        grid.innerHTML = items.map(cardTemplate).join('');
+      })
+      .catch(function(err){
+        filtersEl.innerHTML = '';
+        grid.innerHTML = '<div class="gallery-error">Currently updating the shelves — new treasures are on their way. Check back soon, or follow along for live previews.</div>';
+        console.error('Gallery load error:', err);
+      });
+  }
+
+  if(document.readyState === 'loading'){
+    document.addEventListener('DOMContentLoaded', loadGallery);
+  } else {
+    loadGallery();
+  }
+})();
+</script>
+
 </body>
 </html>
