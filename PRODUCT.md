@@ -16,3 +16,6 @@ JAW Creations, Jordan's Artistic Whims, Jordan Williams. Personal first-person v
 Ten client-provided images copied from the requested local folder. Jordan's supplied story of starting JW Crafts fourteen years ago and evolving through several creative businesses.
 ## Product Principles
 Show real work. Make custom inquiries straightforward. Preserve Jordan's story. Avoid invented claims.
+
+## Local service areas and profiles
+Leitchfield, Kentucky is the main area, with Clarkson, Caneyville and nearby Grayson County communities, as directed by Casey. Google profile supplied by Casey: https://share.google/MZrkhSgqeMACuDPmG (resolves to JAW Creations, Google entity /g/11z7fh0py6). Instagram profile https://www.instagram.com/jawcreations/ has the matching JAW Creations identity, illustration/embroidery bio and Alice Theatre artwork in public search results. No physical business address, opening hours, rating or review total has been verified.

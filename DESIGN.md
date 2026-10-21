@@ -128,3 +128,5 @@ Focus uses a 3px plum outline offset by 5px; the contact region changes the outl
 - Don’t stretch artwork; preserve the implemented contain/cover choices.
 - Don’t turn every content group into a raised card.
 - Don’t use the serif annotation face for body copy.
+
+The local service area and commission questions extend the existing two-column layout with native expandable details. Questions use plum, bold labels and thin dividers. The layout stacks at 760px. Footer social links use inline brand SVGs inside 46px circular bordered targets, plum on paper with a pink hover state and the existing focus ring.

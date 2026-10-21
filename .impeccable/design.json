@@ -197,7 +197,13 @@
         "name": "narrow-max",
         "value": "360px"
       }
-    ]
+    ],
+    "localSearchExtension": {
+      "source": "index.html",
+      "layout": "Two-column service area/FAQ, stacked at 760px",
+      "faq": "Native details and summary; plum labels, muted text, line dividers",
+      "footerSocial": "46px circular targets; 22px SVG icons; plum on paper, pink hover, existing focus ring"
+    }
   },
   "components": [
     {
@@ -254,9 +260,9 @@
       "Do use pink and sage as broad section or mount fields."
     ],
     "donts": [
-      "Don\u2019t stretch artwork; preserve the implemented contain/cover choices.",
-      "Don\u2019t turn every content group into a raised card.",
-      "Don\u2019t use the serif annotation face for body copy."
+      "Don’t stretch artwork; preserve the implemented contain/cover choices.",
+      "Don’t turn every content group into a raised card.",
+      "Don’t use the serif annotation face for body copy."
     ]
   }
 }

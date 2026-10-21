@@ -22,3 +22,13 @@ Rendered desktop/mobile layout and interactive browser behavior remain unverifie
 ## Content assumptions
 
 The “fourteen years ago” wording reflects Jordan’s supplied story, not an independently verified founding date. No prices, stock status, fulfillment policies, operating hours or turnaround guarantees were invented. The email action prepares a draft in the visitor’s mail app; it neither sends nor stores an inquiry.
+
+## Local search and social profiles update
+
+Added a Leitchfield-focused title, description and introductory copy; explicit Clarkson, Caneyville and Grayson County service-area content; more descriptive creative services; five native, expandable commission FAQs; and matching ProfessionalService/OfferCatalog/FAQPage structured data. No business address, opening hours, ratings or fixed prices were assumed.
+
+Added accessible inline SVG links for Facebook, Instagram @jawcreations, and the supplied Google profile. The Google share link resolves to a JAW Creations search entity; Instagram search results show the matching brand, embroidery/illustration bio and Alice Theatre artwork.
+
+Checks passed: all three footer destinations/accessible names, five exact visible FAQ-to-schema matches, service areas, image and internal-anchor references, unchanged eight-piece gallery, JavaScript syntax, title/description lengths, and git whitespace validation. The existing color/type advisory findings are outside this scoped content update; new UI uses the existing palette, focus rings and responsive breakpoint. Browser runtime installation failed due to a truncated download, so no new rendered desktop/mobile pass was completed locally.
+
+Final-domain canonical, og:url and sitemap remain deployment tasks. FAQ markup is descriptive and does not promise Google FAQ rich results or AI/search placement.
