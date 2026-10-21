@@ -32,3 +32,11 @@ Added accessible inline SVG links for Facebook, Instagram @jawcreations, and the
 Checks passed: all three footer destinations/accessible names, five exact visible FAQ-to-schema matches, service areas, image and internal-anchor references, unchanged eight-piece gallery, JavaScript syntax, title/description lengths, and git whitespace validation. The existing color/type advisory findings are outside this scoped content update; new UI uses the existing palette, focus rings and responsive breakpoint. Browser runtime installation failed due to a truncated download, so no new rendered desktop/mobile pass was completed locally.
 
 Final-domain canonical, og:url and sitemap remain deployment tasks. FAQ markup is descriptive and does not promise Google FAQ rich results or AI/search placement.
+
+## Asset organization and supplied photo placement
+
+All 32 image files now live in `assets/` with short descriptive filenames. Original uploads use `.jpg`; matching optimized copies use `.webp`. References in HTML, sharing metadata, documentation and provenance sidecars were updated together. The 25 moved image files retain their original SHA-256 hashes. The concurrent upstream deletion of the unrelated template portrait is preserved; no supplied JAW image was removed.
+
+Jordan’s supplied portrait now appears alongside “Hi, I’m Jordan.” The official supplied logo is visible in the header and footer. The two added storefront paintings and the doodle portrait collage extend the gallery to 11 projects, with the existing filter controls retained. New web images have optimized derivatives, intrinsic dimensions and accessible image/link labels. The fabric banner uses containment so its full lettering is visible.
+
+Validation passed for all image paths, descriptive filenames, preserved original hashes, image dimensions, sharing/schema image URLs, gallery category counts, and JavaScript syntax. An independent review inspected the supplied photos and final source and returned ship at source-review scope with no material issues. Browser capture remains unavailable in this execution environment; rendered desktop/mobile layout and interactions are not certified by this review.

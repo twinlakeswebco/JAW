@@ -10,3 +10,6 @@ FINISH: unreviewed and undocumented is unfinished; this build ends with the fini
 
 ## Local search extension
 Preserve the exhibition world. Add Leitchfield as the main service area with Clarkson, Caneyville and Grayson County, natural service descriptions, matching visible FAQ/structured answers, and accessible Facebook/Instagram/Google footer links. Final canonical domain remains undecided until deployment.
+
+## Supplied photographs
+Place Jordan’s actual portrait beside her biography, use her supplied logo, and extend the existing gallery with the two storefront paintings and doodle portraits. Preserve complete banner lettering, captions, keyboard links and mobile behavior. All image files and their references use short descriptive filenames inside assets/.

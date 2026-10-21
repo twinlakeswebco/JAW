@@ -6,7 +6,7 @@ Open `index.html` directly or serve this directory with any static web server. N
 
 ## Content and behavior
 
-- Eight artwork examples with accessible medium filters. All work remains visible without JavaScript.
+- Eleven artwork examples with accessible medium filters. All work remains visible without JavaScript.
 - Real client-provided images, optimized to WebP in `assets/`.
 - Apparel imagery is explicitly labeled as digital mockups.
 - Custom inquiries use email, telephone, and Jordan’s Facebook page. The main email action opens a prefilled draft in the visitor’s email app; it does not send or store anything.
@@ -15,7 +15,7 @@ Open `index.html` directly or serve this directory with any static web server. N
 
 ## Updating
 
-Copy updates to `index.html` and `assets/` together. Gallery markup is in `#gallery`. Original supplied images are preserved in the project root; the page only loads optimized assets. `assets/*.origin.txt` records image provenance. The two original vintage-template images remain in the repository for history but are no longer referenced by the site.
+Copy updates to `index.html` and `assets/` together. Gallery markup is in `#gallery`. Original supplied images and their optimized copies are preserved in `assets/`; the page loads optimized assets. `assets/*.origin.txt` records image provenance. The obsolete vintage-template portrait was removed upstream and is not restored.
 
 The source story says “fourteen years ago,” quoting the supplied account. Confirm that relative date with Jordan when revising her biography in a later year. No prices, fulfillment policies, opening hours, or turnaround guarantees have been assumed.
 
@@ -28,3 +28,7 @@ ProfessionalService structured data describes Jordan Williams, contact details, 
 Footer links: Facebook profile 61574271221137, Instagram @jawcreations, and the client-supplied Google Business Profile share link. Icons use inline SVG, accessible names, and 46px touch targets.
 
 Before publishing on the final domain: confirm the preferred domain, then add its canonical URL, og:url, robots.txt and sitemap.xml; register it with Google Search Console and add the final website URL to the Google Business Profile. Do not use a temporary preview URL as the permanent canonical. The website is ready for deployment preparation; creating a Cloudflare Pages project is a separate step.
+
+## Photo placement and naming
+
+All image files, including originals, optimized versions, logo and favicon, live in `assets/`. Original JPEGs share a descriptive stem with their WebP derivatives. Jordan’s portrait appears beside “Hi, I’m Jordan”; The Alice Theatre and Leitchfield window paintings and the doodle portraits are included in the filterable gallery. The supplied JAW Creations logo appears in the header and footer. New derivatives are optimized for display; original bytes are retained. The unrelated portrait from the previous template was removed upstream and is not restored.

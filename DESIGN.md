@@ -130,3 +130,5 @@ Focus uses a 3px plum outline offset by 5px; the contact region changes the outl
 - Don’t use the serif annotation face for body copy.
 
 The local service area and commission questions extend the existing two-column layout with native expandable details. Questions use plum, bold labels and thin dividers. The layout stacks at 760px. Footer social links use inline brand SVGs inside 46px circular bordered targets, plum on paper with a pink hover state and the existing focus ring.
+
+The supplied circular JAW Creations logo is paired with a readable business label in the header and footer. Its display sizes are 68px on desktop, 58px on mobile and 56px in the footer. The biography uses Jordan’s actual portrait in the existing plum photo mount, capped at 460px (380px on mobile), with a 4:5 crop and 65% vertical position. Artwork captions remain open beneath the gallery images; the fabric banner uses containment so its lettering stays intact. These additions preserve the existing palette, typography, focus and responsive behavior.

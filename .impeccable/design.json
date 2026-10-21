@@ -203,6 +203,14 @@
       "layout": "Two-column service area/FAQ, stacked at 760px",
       "faq": "Native details and summary; plum labels, muted text, line dividers",
       "footerSocial": "46px circular targets; 22px SVG icons; plum on paper, pink hover, existing focus ring"
+    },
+    "suppliedPhotography": {
+      "artistPortrait": "assets/jordan-williams-artist.webp",
+      "portraitAspectRatio": "4 / 5",
+      "portraitObjectPosition": "center 65%",
+      "brandLogo": "assets/jaw-creations-logo.webp",
+      "galleryItems": 11,
+      "imageDirectory": "assets/"
     }
   },
   "components": [
