@@ -32,3 +32,7 @@ Before publishing on the final domain: confirm the preferred domain, then add it
 ## Photo placement and naming
 
 All image files, including originals, optimized versions, logo and favicon, live in `assets/`. Original JPEGs share a descriptive stem with their WebP derivatives. Jordan’s portrait appears beside “Hi, I’m Jordan”; The Alice Theatre and Leitchfield window paintings and the doodle portraits are included in the filterable gallery. The supplied JAW Creations logo appears in the header and footer. New derivatives are optimized for display; original bytes are retained. The unrelated portrait from the previous template was removed upstream and is not restored.
+
+## Social sharing image
+
+`assets/jaw-creations-og.jpg` is the 1200 × 630 JPEG used by Open Graph and Twitter large-image previews. It uses the supplied logo, cream/plum/pink/sage palette, business name and Leitchfield location. Created with the built-in image generation tool; the exact generation prompt is embedded in the JPEG comment for provenance. Keep the absolute social-image URLs current if the repository or final domain changes.
