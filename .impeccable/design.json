@@ -1,0 +1,262 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-21T00:00:00Z",
+  "title": "Design System: JAW Creations",
+  "extensions": {
+    "sourceInspection": {
+      "source": "index.html",
+      "scope": "Final HTML and inline CSS only; browser render/capture blocked; visual fidelity unverified.",
+      "tonalRamps": "Synthesized OKLCH display metadata; not implemented palette additions."
+    },
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "Cream paper",
+        "tonalRamp": [
+          "oklch(15% 0.01429 84.58)",
+          "oklch(26% 0.01429 84.58)",
+          "oklch(38% 0.01429 84.58)",
+          "oklch(49% 0.01429 84.58)",
+          "oklch(61% 0.01429 84.58)",
+          "oklch(72% 0.01429 84.58)",
+          "oklch(84% 0.01429 84.58)",
+          "oklch(95% 0.01429 84.58)"
+        ]
+      },
+      "plum": {
+        "role": "primary",
+        "displayName": "Plum",
+        "tonalRamp": [
+          "oklch(15% 0.06443 310.39)",
+          "oklch(26% 0.06443 310.39)",
+          "oklch(38% 0.06443 310.39)",
+          "oklch(49% 0.06443 310.39)",
+          "oklch(61% 0.06443 310.39)",
+          "oklch(72% 0.06443 310.39)",
+          "oklch(84% 0.06443 310.39)",
+          "oklch(95% 0.06443 310.39)"
+        ]
+      },
+      "deep": {
+        "role": "primary",
+        "displayName": "Deep plum",
+        "tonalRamp": [
+          "oklch(15% 0.04632 310.43)",
+          "oklch(26% 0.04632 310.43)",
+          "oklch(38% 0.04632 310.43)",
+          "oklch(49% 0.04632 310.43)",
+          "oklch(61% 0.04632 310.43)",
+          "oklch(72% 0.04632 310.43)",
+          "oklch(84% 0.04632 310.43)",
+          "oklch(95% 0.04632 310.43)"
+        ]
+      },
+      "pink": {
+        "role": "secondary",
+        "displayName": "Soft pink",
+        "tonalRamp": [
+          "oklch(15% 0.05256 4.81)",
+          "oklch(26% 0.05256 4.81)",
+          "oklch(38% 0.05256 4.81)",
+          "oklch(49% 0.05256 4.81)",
+          "oklch(61% 0.05256 4.81)",
+          "oklch(72% 0.05256 4.81)",
+          "oklch(84% 0.05256 4.81)",
+          "oklch(95% 0.05256 4.81)"
+        ]
+      },
+      "sage": {
+        "role": "secondary",
+        "displayName": "Sage",
+        "tonalRamp": [
+          "oklch(15% 0.03244 112.86)",
+          "oklch(26% 0.03244 112.86)",
+          "oklch(38% 0.03244 112.86)",
+          "oklch(49% 0.03244 112.86)",
+          "oklch(61% 0.03244 112.86)",
+          "oklch(72% 0.03244 112.86)",
+          "oklch(84% 0.03244 112.86)",
+          "oklch(95% 0.03244 112.86)"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "tonalRamp": [
+          "oklch(15% 0.02610 315.42)",
+          "oklch(26% 0.02610 315.42)",
+          "oklch(38% 0.02610 315.42)",
+          "oklch(49% 0.02610 315.42)",
+          "oklch(61% 0.02610 315.42)",
+          "oklch(72% 0.02610 315.42)",
+          "oklch(84% 0.02610 315.42)",
+          "oklch(95% 0.02610 315.42)"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "Muted plum",
+        "tonalRamp": [
+          "oklch(15% 0.02663 321.42)",
+          "oklch(26% 0.02663 321.42)",
+          "oklch(38% 0.02663 321.42)",
+          "oklch(49% 0.02663 321.42)",
+          "oklch(61% 0.02663 321.42)",
+          "oklch(72% 0.02663 321.42)",
+          "oklch(84% 0.02663 321.42)",
+          "oklch(95% 0.02663 321.42)"
+        ]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Pale plum line",
+        "tonalRamp": [
+          "oklch(15% 0.01971 333.51)",
+          "oklch(26% 0.01971 333.51)",
+          "oklch(38% 0.01971 333.51)",
+          "oklch(49% 0.01971 333.51)",
+          "oklch(61% 0.01971 333.51)",
+          "oklch(72% 0.01971 333.51)",
+          "oklch(84% 0.01971 333.51)",
+          "oklch(95% 0.01971 333.51)"
+        ]
+      },
+      "white": {
+        "role": "neutral",
+        "displayName": "Warm white",
+        "tonalRamp": [
+          "oklch(15% 0.00693 88.64)",
+          "oklch(26% 0.00693 88.64)",
+          "oklch(38% 0.00693 88.64)",
+          "oklch(49% 0.00693 88.64)",
+          "oklch(61% 0.00693 88.64)",
+          "oklch(72% 0.00693 88.64)",
+          "oklch(84% 0.00693 88.64)",
+          "oklch(95% 0.00693 88.64)"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Rubik display",
+        "purpose": "Hero heading; responsive overrides remain in source."
+      },
+      "annotation": {
+        "displayName": "Georgia annotation",
+        "purpose": "Italic annotations; size varies by component."
+      }
+    },
+    "shadows": [
+      {
+        "name": "window-mount",
+        "value": "0 14px 30px -20px #34263e66",
+        "purpose": "Hero window artwork mount only."
+      }
+    ],
+    "motion": [
+      {
+        "name": "exhibition-ease",
+        "value": "cubic-bezier(.16,1,.3,1)",
+        "purpose": "Gallery image zoom and recomposition."
+      },
+      {
+        "name": "button-color",
+        "value": ".25s",
+        "purpose": "Button background and color transitions."
+      },
+      {
+        "name": "filter-color",
+        "value": ".2s",
+        "purpose": "Filter background and color transitions."
+      },
+      {
+        "name": "image-zoom",
+        "value": ".6s",
+        "purpose": "Scale to 1.025 on gallery image hover."
+      },
+      {
+        "name": "gallery-recomposition",
+        "value": ".36s",
+        "purpose": "Opacity and clip-path reveal; no-preference only."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide-min",
+        "value": "1600px"
+      },
+      {
+        "name": "tablet-max",
+        "value": "1050px"
+      },
+      {
+        "name": "mobile-max",
+        "value": "760px"
+      },
+      {
+        "name": "narrow-max",
+        "value": "360px"
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Main inquiry link.",
+      "html": "<a class=\"ds-button\" href=\"#contact\">Start a custom project</a>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:20px;min-height:54px;padding:14px 24px;background:var(--plum);color:var(--paper);border:1px solid var(--plum);border-radius:6px;text-decoration:none;font-weight:700;font-size:.9rem;line-height:1.4;transition:background .25s,color .25s;font-family:var(--body, Rubik, Arial, sans-serif);}.ds-button:hover{background:var(--deep)}.ds-button:focus-visible{outline:3px solid var(--plum);outline-offset:5px;}@media(prefers-reduced-motion:reduce){.ds-button{transition:none}}"
+    },
+    {
+      "name": "Contact action",
+      "kind": "button",
+      "refersTo": "button-contact",
+      "description": "Pink action displayed in the plum contact section.",
+      "html": "<a class=\"ds-button ds-contact\" href=\"mailto:bannersbyjawcreations@gmail.com\">Email Jordan about a project</a>",
+      "css": ".ds-button{display:inline-flex;align-items:center;justify-content:center;gap:20px;min-height:54px;padding:14px 24px;background:var(--plum);color:var(--paper);border:1px solid var(--plum);border-radius:6px;text-decoration:none;font-weight:700;font-size:.9rem;line-height:1.4;transition:background .25s,color .25s;font-family:var(--body, Rubik, Arial, sans-serif);}.ds-button:hover{background:var(--deep)}.ds-button:focus-visible{outline:3px solid var(--plum);outline-offset:5px;}@media(prefers-reduced-motion:reduce){.ds-button{transition:none}}.ds-contact{background:var(--pink);color:var(--deep);border-color:var(--pink)}.ds-contact:hover{background:var(--paper);border-color:var(--paper)}.ds-contact:focus-visible{outline-color:var(--pink)}"
+    },
+    {
+      "name": "Medium filter",
+      "kind": "chip",
+      "refersTo": "filter",
+      "description": "Unselected and selected medium chips; behavior is supplied by the page script.",
+      "html": "<button class=\"ds-filter\" aria-pressed=\"true\">Everything</button> <button class=\"ds-filter\" aria-pressed=\"false\">Handmade</button>",
+      "css": ".ds-filter{min-height:44px;padding:9px 18px;border:1px solid var(--line);background:transparent;color:var(--plum);border-radius:30px;font-size:.83rem;transition:background .2s,color .2s;font-family:var(--body, Rubik, Arial, sans-serif);}.ds-filter:hover{background:var(--pink)}.ds-filter[aria-pressed=true]{background:var(--plum);color:var(--paper);border-color:var(--plum)}.ds-filter:focus-visible{outline:3px solid var(--plum);outline-offset:5px;}@media(prefers-reduced-motion:reduce){.ds-filter{transition:none}}"
+    },
+    {
+      "name": "Navigation links",
+      "kind": "nav",
+      "description": "Desktop plain navigation links. The responsive menu behavior remains in the page.",
+      "html": "<nav class=\"ds-nav\"><a href=\"#work\">The artwork</a><a href=\"#about\">Meet Jordan</a></nav>",
+      "css": ".ds-nav{display:flex;align-items:center;gap:32px;color:var(--ink);font-family:var(--body, Rubik, Arial, sans-serif);}.ds-nav>a{font-size:.88rem;text-decoration:none}.ds-nav>a:hover{text-decoration:underline}.ds-nav>a:focus-visible{outline:3px solid var(--plum);outline-offset:5px;}"
+    },
+    {
+      "name": "Text action",
+      "kind": "button",
+      "description": "Underlined secondary exploration link.",
+      "html": "<a class=\"ds-text-link\" href=\"#work\">Explore my work</a>",
+      "css": ".ds-text-link{display:inline-flex;align-items:center;gap:12px;font-size:.9rem;font-weight:700;text-decoration-thickness:1px;text-underline-offset:5px;color:var(--ink);font-family:var(--body, Rubik, Arial, sans-serif);}.ds-text-link:hover{color:var(--plum)}.ds-text-link:focus-visible{outline:3px solid var(--plum);outline-offset:5px;}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Artist Exhibition Foldout",
+    "overview": "An artist exhibition foldout: cream paper, large plum lettering, pink and sage fields, and real artwork with printed captions. The personality is personal and handmade, with restrained tilted mounts and occasional italic serif annotations.",
+    "keyCharacteristics": [
+      "Cream paper and plum type anchor the page.",
+      "Real artwork leads; captions identify each medium.",
+      "Pink and sage fields organize the exhibition."
+    ],
+    "rules": [],
+    "dos": [
+      "Do use supplied artwork and clear captions.",
+      "Do preserve visible keyboard focus and reduced-motion behavior.",
+      "Do use pink and sage as broad section or mount fields."
+    ],
+    "donts": [
+      "Don\u2019t stretch artwork; preserve the implemented contain/cover choices.",
+      "Don\u2019t turn every content group into a raised card.",
+      "Don\u2019t use the serif annotation face for body copy."
+    ]
+  }
+}
