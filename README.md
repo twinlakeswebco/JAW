@@ -27,7 +27,7 @@ ProfessionalService structured data describes Jordan Williams, contact details, 
 
 Footer links: Facebook profile 61574271221137, Instagram @jawcreations, and the client-supplied Google Business Profile share link. Icons use inline SVG, accessible names, and 46px touch targets.
 
-Before publishing on the final domain: confirm the preferred domain, then add its canonical URL, og:url, robots.txt and sitemap.xml; register it with Google Search Console and add the final website URL to the Google Business Profile. Do not use a temporary preview URL as the permanent canonical. The website is ready for deployment preparation; creating a Cloudflare Pages project is a separate step.
+The confirmed primary domain is https://jawcreations.com/. The canonical URL, og:url, social image URLs, business/page structured data, robots.txt and sitemap.xml use this domain. Register the domain with Google Search Console, submit sitemap.xml, and add the website URL to the Google Business Profile.
 
 ## Photo placement and naming
 
